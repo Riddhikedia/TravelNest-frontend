@@ -17,7 +17,7 @@ const ReservationList = () => {
   const getReservationList = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3001/users/${userId}/reservations`,
+        `https://travelnest-backend-beaw.onrender.com/users/${userId}/reservations`,
         {
           method: "GET",
         }

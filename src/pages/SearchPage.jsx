@@ -17,7 +17,7 @@ const SearchPage = () => {
 
   const getSearchListings = async () => {
     try {
-      const response = await fetch(`${window.location.origin}/properties/search/${search}`, {
+      const response = await fetch(`https://travelnest-backend-beaw.onrender.com/properties/search/${search}`, {
         method: "GET"
       })
 
